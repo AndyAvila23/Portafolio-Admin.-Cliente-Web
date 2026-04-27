@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor-principal">
+    <div class="DATOS_DEL_CLIENTE">
+        <form id ="formulario">
+            <h2>DATOS DEL CLIENTE</h2>
+            <p><strong>CEDULA:</strong>
+                <input type="text" name="cedula" placeholder="CEDULA" required></p>
+            <p><strong>NOMBRE:</strong>
+                <input type="text" name="nombre" placeholder="NOMBRE" required></p>
+            <p><strong>Dirección:</strong>
+                <input type="text" name="direccion" placeholder="DIRECCIÓN"></p>
+            <p><strong>Teléfono:</strong>
+                <input type="tel" name="telefono" placeholder="TELEFONO" required></p>
+            <p><strong>Email:</strong> 
+                <input type="email" name="email" placeholder="EMAIL" required></p>
+                <div class="boton">
+                    <p><input type="submit" value="Guardar"></p>
+                </div>
+        </form>
+    </div>
+    <div id="informacion" class="INFORMACION_DEL_CLIENTE" hidden>
+            <h2>INFORMACIÓN DEL CLIENTE</h2>
+            <p><strong>CEDULA:</strong>
+                <span id="out_cedula"></span></p>
+            <p><strong>NOMBRE:</strong>
+                <span id="out_nombre"></span></p>
+            <p><strong>DIRECCIÓN:</strong>
+                <span id="out_direccion"></span></p>
+            <p><strong>TELEFONO:</strong>
+                <span id="out_telefono"></span></p>
+            <p><strong>EMAIL:</strong> 
+                <span id="out_email"></span></p>
+    </div>
+</div>
+
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        const datos = new FormData(this);
+
+        document.getElementById("out_cedula").textContent = datos.get("cedula");
+        document.getElementById("out_nombre").textContent = datos.get("nombre");
+        document.getElementById("out_direccion").textContent = datos.get("direccion");
+        document.getElementById("out_telefono").textContent = datos.get("telefono");
+        document.getElementById("out_email").textContent = datos.get("email");
+
+        document.getElementById("informacion").hidden = false;
+    });
+</script>
+
+</body>
+</html>
