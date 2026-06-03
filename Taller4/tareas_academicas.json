@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": "1780502757587",
+    "titulo": "Analisis del Codigo",
+    "descripcion": "En esta tarea deben analiazar el codigo adjunto            ",
+    "fecha": "3/6/2026"
+  },
+  {
+    "codigo": "1780502817497",
+    "titulo": "Instalacion de Visual Studio Code",
+    "descripcion": "En esta actividad deben seguir los pasos para la instalacion de VS Code            ",
+    "fecha": "3/6/2026"
+  },
+  {
+    "codigo": "1780502905889",
+    "titulo": "Lectura del SQL Server",
+    "descripcion": "En esta activida debe leer el archivo adjunto sobre SQL Server",
+    "fecha": "3/6/2026"
+  }
+]

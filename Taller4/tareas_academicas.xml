@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tareas>
+  <tarea codigo="1780503255859">
+    <titulo>Analisis del Codigo</titulo>
+    <descripcion>En esta tarea deben analiazar el codigo adjunto</descripcion>
+    <fecha>3/6/2026</fecha>
+  </tarea>
+  <tarea codigo="1780503278470">
+    <titulo>Instalacion de Visual Studio Code</titulo>
+    <descripcion>En esta actividad deben seguir los pasos para la instalacion de VS Code</descripcion>
+    <fecha>3/6/2026</fecha>
+  </tarea>
+  <tarea codigo="1780503295586">
+    <titulo>Lectura del SQL Server</titulo>
+    <descripcion>En esta activida debe leer el archivo adjunto sobre SQL Server</descripcion>
+    <fecha>3/6/2026</fecha>
+  </tarea>
+</tareas>
