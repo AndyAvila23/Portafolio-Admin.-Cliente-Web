@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Registro de Estudiantes</h1>
+        
+        <div class="main-content">
+            <!-- Columna Izquierda - Formulario -->
+            <div class="left-column">
+                <div class="form-container">
+                    <h2>Formulario de Registro</h2>
+                    <form id="formularioEstudiante">
+                        <div class="form-group">
+                            <label for="cedula">Cédula *</label>
+                            <input type="text" id="cedula" placeholder="Ej: 1234567890" maxlength="10">
+                            <div class="error-message" id="error-cedula"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos *</label>
+                            <input type="text" id="apellidos" placeholder="Apellidos completos">
+                            <div class="error-message" id="error-apellidos"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nombres">Nombres *</label>
+                            <input type="text" id="nombres" placeholder="Nombres completos">
+                            <div class="error-message" id="error-nombres"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="direccion">Dirección *</label>
+                            <input type="text" id="direccion" placeholder="Dirección de residencia">
+                            <div class="error-message" id="error-direccion"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" placeholder="Ej: 0991234567" maxlength="10">
+                            <div class="error-message" id="error-telefono"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico *</label>
+                            <input type="email" id="correo" placeholder="correo@ejemplo.com">
+                            <div class="error-message" id="error-correo"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="facultad">Facultad *</label>
+                            <select id="facultad">
+                                <option value="">Seleccione una facultad</option>
+                                <option value="Ingeniería">Ingeniería</option>
+                                <option value="Medicina">Medicina</option>
+                                <option value="Derecho">Derecho</option>
+                                <option value="Arquitectura">Arquitectura</option>
+                                <option value="Administración">Administración</option>
+                                <option value="Ciencias">Ciencias</option>
+                            </select>
+                            <div class="error-message" id="error-facultad"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nivel">Nivel *</label>
+                            <select id="nivel">
+                                <option value="">Seleccione un nivel</option>
+                                <option value="Primero">Primero</option>
+                                <option value="Segundo">Segundo</option>
+                                <option value="Tercero">Tercero</option>
+                                <option value="Cuarto">Cuarto</option>
+                                <option value="Quinto">Quinto</option>
+                                <option value="Sexto">Sexto</option>
+                                <option value="Séptimo">Séptimo</option>
+                                <option value="Octavo">Octavo</option>
+                                <option value="Noveno">Noveno</option>
+                                <option value="Décimo">Décimo</option>
+                            </select>
+                            <div class="error-message" id="error-nivel"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paralelo">Paralelo *</label>
+                            <select id="paralelo">
+                                <option value="">Seleccione un paralelo</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                            </select>
+                            <div class="error-message" id="error-paralelo"></div>
+                        </div>
+
+                        <div class="button-group">
+                            <button type="submit" class="btn-registrar">📝 Registrar Estudiante</button>
+                            <button type="button" class="btn-limpiar" id="btnLimpiar">🧹 Limpiar Formulario</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Columna Derecha - Tabla -->
+            <div class="right-column">
+                <div class="table-container">
+                    <h2>Estudiantes Registrados</h2>
+                    <div class="contador" id="contador">
+                        Total: <strong id="totalEstudiantes">0</strong> estudiantes
+                    </div>
+                    <div class="tabla-wrapper">
+                        <table id="tablaEstudiantes">
+                            <thead>
+                                <tr>
+                                    <th>Cédula</th>
+                                    <th>Apellidos</th>
+                                    <th>Nombres</th>
+                                    <th>Facultad</th>
+                                    <th>Nivel</th>
+                                    <th>Paralelo</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cuerpoTabla">
+                                <tr class="no-registros">
+                                    <td colspan="7">No hay estudiantes registrados</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
