@@ -1,0 +1,352 @@
+[
+  {
+    "id": "cert001",
+    "studentId": "STU-001",
+    "courseId": "c1",
+    "issuedAt": "2026-06-15T10:00:00.000Z",
+    "code": "ULCAP-REACT-003"
+  },
+  {
+    "id": "cert002",
+    "studentId": "STU-001",
+    "courseId": "c4",
+    "issuedAt": "2026-06-25T10:00:00.000Z",
+    "code": "ULCAP-MKT-003"
+  },
+  {
+    "id": "cert003",
+    "studentId": "STU-003",
+    "courseId": "c6",
+    "issuedAt": "2026-02-20T10:00:00.000Z",
+    "code": "ULCAP-PYTHON-001"
+  },
+  {
+    "id": "cert004",
+    "studentId": "STU-004",
+    "courseId": "c6",
+    "issuedAt": "2026-02-25T10:00:00.000Z",
+    "code": "ULCAP-PYTHON-002"
+  },
+  {
+    "id": "cert005",
+    "studentId": "STU-005",
+    "courseId": "c7",
+    "issuedAt": "2026-01-30T10:00:00.000Z",
+    "code": "ULCAP-FOTO-001"
+  },
+  {
+    "id": "cert006",
+    "studentId": "STU-006",
+    "courseId": "c8",
+    "issuedAt": "2026-02-15T10:00:00.000Z",
+    "code": "ULCAP-GUITAR-001"
+  },
+  {
+    "id": "cert007",
+    "studentId": "STU-007",
+    "courseId": "c9",
+    "issuedAt": "2026-02-18T10:00:00.000Z",
+    "code": "ULCAP-NUTR-001"
+  },
+  {
+    "id": "cert008",
+    "studentId": "STU-008",
+    "courseId": "c10",
+    "issuedAt": "2026-02-22T10:00:00.000Z",
+    "code": "ULCAP-ACUA-001"
+  },
+  {
+    "id": "cert009",
+    "studentId": "STU-009",
+    "courseId": "c11",
+    "issuedAt": "2026-02-28T10:00:00.000Z",
+    "code": "ULCAP-BLOCK-001"
+  },
+  {
+    "id": "cert010",
+    "studentId": "STU-011",
+    "courseId": "c13",
+    "issuedAt": "2026-03-05T10:00:00.000Z",
+    "code": "ULCAP-ROCK-001"
+  },
+  {
+    "id": "cert011",
+    "studentId": "STU-012",
+    "courseId": "c14",
+    "issuedAt": "2026-03-10T10:00:00.000Z",
+    "code": "ULCAP-ORAT-001"
+  },
+  {
+    "id": "cert012",
+    "studentId": "STU-013",
+    "courseId": "c15",
+    "issuedAt": "2026-03-15T10:00:00.000Z",
+    "code": "ULCAP-COOK-001"
+  },
+  {
+    "id": "cert013",
+    "studentId": "STU-014",
+    "courseId": "c16",
+    "issuedAt": "2026-03-20T10:00:00.000Z",
+    "code": "ULCAP-YOGA-001"
+  },
+  {
+    "id": "cert014",
+    "studentId": "STU-015",
+    "courseId": "c17",
+    "issuedAt": "2026-03-25T10:00:00.000Z",
+    "code": "ULCAP-INTER-001"
+  },
+  {
+    "id": "cert015",
+    "studentId": "STU-016",
+    "courseId": "c18",
+    "issuedAt": "2026-03-28T10:00:00.000Z",
+    "code": "ULCAP-FIRST-001"
+  },
+  {
+    "id": "cert016",
+    "studentId": "STU-018",
+    "courseId": "c20",
+    "issuedAt": "2026-04-01T10:00:00.000Z",
+    "code": "ULCAP-ASTRO-001"
+  },
+  {
+    "id": "cert017",
+    "studentId": "STU-019",
+    "courseId": "c21",
+    "issuedAt": "2026-04-05T10:00:00.000Z",
+    "code": "ULCAP-SEC-001"
+  },
+  {
+    "id": "cert018",
+    "studentId": "STU-020",
+    "courseId": "c22",
+    "issuedAt": "2026-04-08T10:00:00.000Z",
+    "code": "ULCAP-DB-001"
+  },
+  {
+    "id": "cert019",
+    "studentId": "STU-021",
+    "courseId": "c23",
+    "issuedAt": "2026-04-10T10:00:00.000Z",
+    "code": "ULCAP-HTML-001"
+  },
+  {
+    "id": "cert020",
+    "studentId": "STU-022",
+    "courseId": "c24",
+    "issuedAt": "2026-04-15T10:00:00.000Z",
+    "code": "ULCAP-JS-001"
+  },
+  {
+    "id": "cert021",
+    "studentId": "STU-023",
+    "courseId": "c25",
+    "issuedAt": "2026-04-18T10:00:00.000Z",
+    "code": "ULCAP-TS-001"
+  },
+  {
+    "id": "cert022",
+    "studentId": "STU-024",
+    "courseId": "c26",
+    "issuedAt": "2026-04-20T10:00:00.000Z",
+    "code": "ULCAP-DOCKER-001"
+  },
+  {
+    "id": "cert023",
+    "studentId": "STU-025",
+    "courseId": "c27",
+    "issuedAt": "2026-04-22T10:00:00.000Z",
+    "code": "ULCAP-ML-001"
+  },
+  {
+    "id": "cert024",
+    "studentId": "STU-026",
+    "courseId": "c28",
+    "issuedAt": "2026-04-25T10:00:00.000Z",
+    "code": "ULCAP-FASHION-001"
+  },
+  {
+    "id": "cert025",
+    "studentId": "STU-027",
+    "courseId": "c29",
+    "issuedAt": "2026-04-28T10:00:00.000Z",
+    "code": "ULCAP-GARDEN-001"
+  },
+  {
+    "id": "cert026",
+    "studentId": "STU-029",
+    "courseId": "c31",
+    "issuedAt": "2026-05-01T10:00:00.000Z",
+    "code": "ULCAP-LOG-001"
+  },
+  {
+    "id": "cert027",
+    "studentId": "STU-030",
+    "courseId": "c32",
+    "issuedAt": "2026-05-03T10:00:00.000Z",
+    "code": "ULCAP-SCRUM-001"
+  },
+  {
+    "id": "cert028",
+    "studentId": "STU-031",
+    "courseId": "c33",
+    "issuedAt": "2026-05-05T10:00:00.000Z",
+    "code": "ULCAP-ACCOUNT-001"
+  },
+  {
+    "id": "cert029",
+    "studentId": "STU-032",
+    "courseId": "c34",
+    "issuedAt": "2026-05-08T10:00:00.000Z",
+    "code": "ULCAP-STATS-001"
+  },
+  {
+    "id": "cert030",
+    "studentId": "STU-033",
+    "courseId": "c35",
+    "issuedAt": "2026-05-10T10:00:00.000Z",
+    "code": "ULCAP-PORTRAIT-001"
+  },
+  {
+    "id": "cert031",
+    "studentId": "STU-034",
+    "courseId": "c36",
+    "issuedAt": "2026-05-12T10:00:00.000Z",
+    "code": "ULCAP-ENGLISH-001"
+  },
+  {
+    "id": "cert032",
+    "studentId": "STU-035",
+    "courseId": "c37",
+    "issuedAt": "2026-05-15T10:00:00.000Z",
+    "code": "ULCAP-GAME-001"
+  },
+  {
+    "id": "cert033",
+    "studentId": "STU-036",
+    "courseId": "c38",
+    "issuedAt": "2026-05-18T10:00:00.000Z",
+    "code": "ULCAP-ANIM-001"
+  },
+  {
+    "id": "cert034",
+    "studentId": "STU-037",
+    "courseId": "c39",
+    "issuedAt": "2026-05-20T10:00:00.000Z",
+    "code": "ULCAP-FINANCE-001"
+  },
+  {
+    "id": "cert035",
+    "studentId": "STU-038",
+    "courseId": "c40",
+    "issuedAt": "2026-05-22T10:00:00.000Z",
+    "code": "ULCAP-PHIL-001"
+  },
+  {
+    "id": "cert036",
+    "studentId": "STU-039",
+    "courseId": "c41",
+    "issuedAt": "2026-05-25T10:00:00.000Z",
+    "code": "ULCAP-LAW-001"
+  },
+  {
+    "id": "cert037",
+    "studentId": "STU-041",
+    "courseId": "c43",
+    "issuedAt": "2026-05-28T10:00:00.000Z",
+    "code": "ULCAP-ARTHIST-001"
+  },
+  {
+    "id": "cert038",
+    "studentId": "STU-042",
+    "courseId": "c44",
+    "issuedAt": "2026-05-30T10:00:00.000Z",
+    "code": "ULCAP-MINDFUL-001"
+  },
+  {
+    "id": "cert039",
+    "studentId": "STU-043",
+    "courseId": "c45",
+    "issuedAt": "2026-06-01T10:00:00.000Z",
+    "code": "ULCAP-ILLUSTR-001"
+  },
+  {
+    "id": "cert040",
+    "studentId": "STU-044",
+    "courseId": "c46",
+    "issuedAt": "2026-06-03T10:00:00.000Z",
+    "code": "ULCAP-NETWORK-001"
+  },
+  {
+    "id": "cert041",
+    "studentId": "STU-045",
+    "courseId": "c47",
+    "issuedAt": "2026-06-05T10:00:00.000Z",
+    "code": "ULCAP-MUSIC-001"
+  },
+  {
+    "id": "cert042",
+    "studentId": "STU-046",
+    "courseId": "c48",
+    "issuedAt": "2026-06-08T10:00:00.000Z",
+    "code": "ULCAP-SEO-001"
+  },
+  {
+    "id": "cert043",
+    "studentId": "STU-047",
+    "courseId": "c49",
+    "issuedAt": "2026-06-10T10:00:00.000Z",
+    "code": "ULCAP-RSE-001"
+  },
+  {
+    "id": "cert044",
+    "studentId": "STU-002",
+    "courseId": "c50",
+    "issuedAt": "2026-06-12T10:00:00.000Z",
+    "code": "ULCAP-NEGOTIATE-001"
+  },
+  {
+    "id": "cert045",
+    "studentId": "STU-008",
+    "courseId": "c5",
+    "issuedAt": "2026-06-15T10:00:00.000Z",
+    "code": "ULCAP-LEAD-001"
+  },
+  {
+    "id": "cert046",
+    "studentId": "STU-010",
+    "courseId": "c2",
+    "issuedAt": "2026-06-18T10:00:00.000Z",
+    "code": "ULCAP-UIUX-001"
+  },
+  {
+    "id": "cert047",
+    "studentId": "STU-017",
+    "courseId": "c3",
+    "issuedAt": "2026-06-20T10:00:00.000Z",
+    "code": "ULCAP-NODE-001"
+  },
+  {
+    "id": "cert048",
+    "studentId": "STU-028",
+    "courseId": "c12",
+    "issuedAt": "2026-06-22T10:00:00.000Z",
+    "code": "ULCAP-PREMIER-001"
+  },
+  {
+    "id": "cert049",
+    "studentId": "STU-040",
+    "courseId": "c19",
+    "issuedAt": "2026-06-25T10:00:00.000Z",
+    "code": "ULCAP-WRITE-001"
+  },
+  {
+    "id": "cert050",
+    "studentId": "STU-048",
+    "courseId": "c30",
+    "issuedAt": "2026-06-28T10:00:00.000Z",
+    "code": "ULCAP-TOUR-001"
+  }
+]

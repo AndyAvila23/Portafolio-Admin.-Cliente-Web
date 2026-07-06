@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "c1",
+    "title": "Introducción a React",
+    "description": "Aprende los fundamentos de React desde cero. Crea interfaces dinámicas con Hooks, Context API y más.",
+    "categoryId": "cat1",
+    "level": "Básico",
+    "duration": 20,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 125,
+    "createdAt": "2026-02-10T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c1",
+        "title": "Bienvenida y Conceptos Básicos",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=MPLN1ahEJWE"
+      },
+      {
+        "id": "l2_c1",
+        "title": "Tu primer componente funcional",
+        "type": "text",
+        "content": "Un componente en React es una función de JavaScript que retorna código JSX."
+      },
+      {
+        "id": "l3_c1",
+        "title": "Entendiendo el estado (useState)",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=O6P86uwfdR0"
+      }
+    ],
+    "resources": [
+      {
+        "id": "r1_c1",
+        "title": "Guía oficial de React",
+        "url": "https://react.dev",
+        "isDownloadable": false
+      },
+      {
+        "id": "r2_c1",
+        "title": "Ejercicios Prácticos (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+        "isDownloadable": true
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "Diseño UI/UX Avanzado",
+    "description": "Mejora tus interfaces gráficas y la experiencia de tus usuarios aplicando psicología del color, tipografía y flujos de usuario.",
+    "categoryId": "cat2",
+    "level": "Avanzado",
+    "duration": 40,
+    "instructorId": "INS-002",
+    "status": "active",
+    "studentsEnrolled": 89,
+    "createdAt": "2026-03-05T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c2",
+        "title": "Fundamentos de Experiencia de Usuario (UX)",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU"
+      },
+      {
+        "id": "l2_c2",
+        "title": "Jerarquía Visual y Wireframes",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=eJtzK3Gf0pI"
+      },
+      {
+        "id": "l3_c2",
+        "title": "Creando Prototipos en Figma",
+        "type": "text",
+        "content": "Figma es la herramienta líder en la industria."
+      }
+    ],
+    "resources": [
+      {
+        "id": "r1_c2",
+        "title": "Librería de Componentes Figma",
+        "url": "https://www.figma.com/community",
+        "isDownloadable": false
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "Desarrollo Backend con Node.js",
+    "description": "Crea APIs robustas y escalables con Express. Conecta tu backend a bases de datos MongoDB y domina el ecosistema Node.",
+    "categoryId": "cat1",
+    "level": "Intermedio",
+    "duration": 35,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 42,
+    "createdAt": "2026-04-12T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c3",
+        "title": "Instalación y Hola Mundo en Express",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Oe421EPjeBE"
+      },
+      {
+        "id": "l2_c3",
+        "title": "Manejo de Rutas y Middleware",
+        "type": "pdf",
+        "content": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c4",
+    "title": "Marketing Digital para Startups",
+    "description": "Atrae clientes, optimiza tus campañas en redes sociales y domina Google Ads para hacer crecer tu negocio.",
+    "categoryId": "cat3",
+    "level": "Básico",
+    "duration": 15,
+    "instructorId": "INS-002",
+    "status": "active",
+    "studentsEnrolled": 200,
+    "createdAt": "2026-01-20T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c4",
+        "title": "Entendiendo a tu audiencia objetivo",
+        "type": "text",
+        "content": "El primer paso en el marketing es definir tu Buyer Persona..."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c5",
+    "title": "Liderazgo y Gestión de Equipos",
+    "description": "Desarrolla habilidades blandas para inspirar, motivar y liderar equipos multidisciplinarios de alto rendimiento.",
+    "categoryId": "cat4",
+    "level": "Intermedio",
+    "duration": 25,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 65,
+    "createdAt": "2026-05-18T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c5",
+        "title": "Resolución de conflictos",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Q-EACzB28x0"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c6",
+    "title": "Python para Ciencia de Datos",
+    "description": "Domina Python y sus librerías para análisis de datos: Pandas, NumPy, Matplotlib y Scikit-learn.",
+    "categoryId": "cat6",
+    "level": "Intermedio",
+    "duration": 45,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 156,
+    "createdAt": "2026-01-05T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c6",
+        "title": "Introducción a Python",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+      },
+      {
+        "id": "l2_c6",
+        "title": "Pandas para manipulación de datos",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=vmEHCJofslg"
+      },
+      {
+        "id": "l3_c6",
+        "title": "Visualización con Matplotlib",
+        "type": "text",
+        "content": "Matplotlib es la biblioteca base para visualización en Python."
+      }
+    ],
+    "resources": [
+      {
+        "id": "r1_c6",
+        "title": "Dataset de ejemplo",
+        "url": "https://www.kaggle.com/datasets",
+        "isDownloadable": true
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "title": "Fotografía de Producto",
+    "description": "Aprende a fotografiar productos con luz natural y artificial para e-commerce.",
+    "categoryId": "cat8",
+    "level": "Básico",
+    "duration": 18,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 78,
+    "createdAt": "2026-01-08T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c7",
+        "title": "Configuración de cámara para producto",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=6VW1Z4LxqFw"
+      },
+      {
+        "id": "l2_c7",
+        "title": "Iluminación básica",
+        "type": "text",
+        "content": "La luz es el elemento más importante en fotografía de producto."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c8",
+    "title": "Guitarra Acústica: Nivel 1",
+    "description": "Aprende los fundamentos de la guitarra acústica: acordes, ritmos y canciones populares.",
+    "categoryId": "cat9",
+    "level": "Básico",
+    "duration": 30,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 210,
+    "createdAt": "2026-01-10T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c8",
+        "title": "Partes de la guitarra",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=ZP9sZmS6fC0"
+      },
+      {
+        "id": "l2_c8",
+        "title": "Acordes básicos: Do, Sol y Re",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=9gK9I9CzIYI"
+      },
+      {
+        "id": "l3_c8",
+        "title": "Primeras canciones",
+        "type": "text",
+        "content": "Practica con canciones sencillas como 'Los Pollitos Dicen'."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c9",
+    "title": "Nutrición Deportiva",
+    "description": "Aprende a alimentarte para mejorar tu rendimiento deportivo y recuperación.",
+    "categoryId": "cat10",
+    "level": "Intermedio",
+    "duration": 22,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 145,
+    "createdAt": "2026-01-12T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1535914254981-b5012e638bd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c9",
+        "title": "Macronutrientes: Proteínas, Carbohidratos y Grasas",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=3Cp3j6lyi7A"
+      },
+      {
+        "id": "l2_c9",
+        "title": "Suplementación en el deporte",
+        "type": "text",
+        "content": "Los suplementos pueden ser útiles pero no son necesarios para todos."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c10",
+    "title": "Acuarela para Principiantes",
+    "description": "Descubre las técnicas básicas de la acuarela: lavados, mezclas y efectos.",
+    "categoryId": "cat11",
+    "level": "Básico",
+    "duration": 16,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 67,
+    "createdAt": "2026-01-15T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c10",
+        "title": "Materiales para acuarela",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=7Bw6NNAQvEw"
+      },
+      {
+        "id": "l2_c10",
+        "title": "Técnica de lavado",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=-P7x8dj0Pb4"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c11",
+    "title": "Blockchain y Criptomonedas",
+    "description": "Entiende la tecnología blockchain y las criptomonedas más importantes del mercado.",
+    "categoryId": "cat35",
+    "level": "Básico",
+    "duration": 28,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 320,
+    "createdAt": "2026-01-18T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c11",
+        "title": "¿Qué es blockchain?",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=9sH7HjTq3l8"
+      },
+      {
+        "id": "l2_c11",
+        "title": "Bitcoin y Ethereum",
+        "type": "text",
+        "content": "Las dos criptomonedas más importantes del mercado."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c12",
+    "title": "Edición de Video con Premiere Pro",
+    "description": "Aprende a editar videos profesionales con Adobe Premiere Pro desde cero.",
+    "categoryId": "cat36",
+    "level": "Intermedio",
+    "duration": 50,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 180,
+    "createdAt": "2026-01-20T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c12",
+        "title": "Interfaz de Premiere Pro",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=QwMAm1_AphE"
+      },
+      {
+        "id": "l2_c12",
+        "title": "Cortes y transiciones",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=JDYvWLJ7N2w"
+      },
+      {
+        "id": "l3_c12",
+        "title": "Corrección de color",
+        "type": "text",
+        "content": "Lumetri Color es la herramienta principal para corrección de color."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c13",
+    "title": "Guitarra Eléctrica: Rock y Blues",
+    "description": "Domina la guitarra eléctrica con técnicas de rock y blues: bends, slides y power chords.",
+    "categoryId": "cat9",
+    "level": "Intermedio",
+    "duration": 35,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 98,
+    "createdAt": "2026-01-22T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c13",
+        "title": "Power chords y ritmos de rock",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=QyIS7VZORUI"
+      },
+      {
+        "id": "l2_c13",
+        "title": "Escala pentatónica para blues",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=3a_RF6JmbqM"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c14",
+    "title": "Oratoria y Presentaciones Efectivas",
+    "description": "Aprende a hablar en público con confianza y crear presentaciones impactantes.",
+    "categoryId": "cat14",
+    "level": "Básico",
+    "duration": 20,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 240,
+    "createdAt": "2026-01-25T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c14",
+        "title": "Superando el miedo escénico",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=QW2eRj-6ZWA"
+      },
+      {
+        "id": "l2_c14",
+        "title": "Estructura de una presentación",
+        "type": "text",
+        "content": "Una buena presentación tiene introducción, desarrollo y conclusión."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c15",
+    "title": "Cocina Internacional: Platos Clásicos",
+    "description": "Aprende a preparar platos emblemáticos de la cocina internacional: italiana, francesa, asiática y más.",
+    "categoryId": "cat15",
+    "level": "Intermedio",
+    "duration": 40,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 175,
+    "createdAt": "2026-01-28T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c15",
+        "title": "Pasta fresca: Fettuccine",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=KHRvVvH3sL0"
+      },
+      {
+        "id": "l2_c15",
+        "title": "Salsa Alfredo casera",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=UJmKLO7pPj4"
+      },
+      {
+        "id": "l3_c15",
+        "title": "Técnicas de cocción",
+        "type": "text",
+        "content": "Conoce las diferentes técnicas de cocción: hervir, saltear y hornear."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c16",
+    "title": "Yoga para Principiantes",
+    "description": "Inicia tu práctica de yoga con posturas básicas y técnicas de respiración.",
+    "categoryId": "cat17",
+    "level": "Básico",
+    "duration": 12,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 300,
+    "createdAt": "2026-02-01T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c16",
+        "title": "Respiración y meditación",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=2S75-Od9K3A"
+      },
+      {
+        "id": "l2_c16",
+        "title": "Postura del perro boca abajo",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=JmiZjy5mCqM"
+      },
+      {
+        "id": "l3_c16",
+        "title": "Saludo al sol",
+        "type": "text",
+        "content": "El saludo al sol es una secuencia de 12 posturas."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c17",
+    "title": "Diseño de Interiores",
+    "description": "Aprende los principios del diseño de interiores: distribución, color, iluminación y mobiliario.",
+    "categoryId": "cat19",
+    "level": "Intermedio",
+    "duration": 30,
+    "instructorId": "INS-002",
+    "status": "active",
+    "studentsEnrolled": 110,
+    "createdAt": "2026-02-03T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c17",
+        "title": "Teoría del color en interiores",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=D7iN22cq1b4"
+      },
+      {
+        "id": "l2_c17",
+        "title": "Distribución de espacios",
+        "type": "text",
+        "content": "La distribución debe considerar el flujo de movimiento."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c18",
+    "title": "Primeros Auxilios Básicos",
+    "description": "Aprende técnicas de primeros auxilios para situaciones de emergencia.",
+    "categoryId": "cat20",
+    "level": "Básico",
+    "duration": 15,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 400,
+    "createdAt": "2026-02-05T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c18",
+        "title": "RCP básico",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=_s1VtUO6B5E"
+      },
+      {
+        "id": "l2_c18",
+        "title": "Maniobra de Heimlich",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=6jy-A94aJnc"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c19",
+    "title": "Escritura Creativa",
+    "description": "Desarrolla tu creatividad y aprende técnicas de escritura para cuentos, novelas y poesía.",
+    "categoryId": "cat24",
+    "level": "Intermedio",
+    "duration": 25,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 85,
+    "createdAt": "2026-02-08T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c19",
+        "title": "Encontrando tu voz creativa",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=QqV9uCgUjLw"
+      },
+      {
+        "id": "l2_c19",
+        "title": "Construcción de personajes",
+        "type": "text",
+        "content": "Un buen personaje tiene motivaciones, miedos y sueños."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c20",
+    "title": "Astronomía y Cosmología",
+    "description": "Explora el universo: estrellas, planetas, galaxias y teorías cosmológicas.",
+    "categoryId": "cat26",
+    "level": "Básico",
+    "duration": 20,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 130,
+    "createdAt": "2026-02-10T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c20",
+        "title": "Introducción al Sistema Solar",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=libKVRa01L8"
+      },
+      {
+        "id": "l2_c20",
+        "title": "Las estrellas y su ciclo de vida",
+        "type": "text",
+        "content": "Las estrellas nacen, viven y mueren en ciclos de millones de años."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c21",
+    "title": "Ciberseguridad Esencial",
+    "description": "Protege tu información y aprende sobre amenazas digitales y cómo prevenirlas.",
+    "categoryId": "cat29",
+    "level": "Básico",
+    "duration": 18,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 260,
+    "createdAt": "2026-02-12T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c21",
+        "title": "Amenazas comunes: malware y phishing",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+      },
+      {
+        "id": "l2_c21",
+        "title": "Contraseñas seguras",
+        "type": "text",
+        "content": "Usa contraseñas largas con mayúsculas, minúsculas, números y símbolos."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c22",
+    "title": "Bases de Datos: SQL y NoSQL",
+    "description": "Aprende a diseñar y administrar bases de datos relacionales y no relacionales.",
+    "categoryId": "cat32",
+    "level": "Intermedio",
+    "duration": 40,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 195,
+    "createdAt": "2026-02-15T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c22",
+        "title": "Introducción a SQL",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=27axs9dO7AE"
+      },
+      {
+        "id": "l2_c22",
+        "title": "Consultas básicas: SELECT, INSERT, UPDATE, DELETE",
+        "type": "text",
+        "content": "SQL es el lenguaje estándar para bases de datos relacionales."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c23",
+    "title": "HTML y CSS para Principiantes",
+    "description": "Aprende a construir sitios web estáticos con HTML5 y CSS3.",
+    "categoryId": "cat1",
+    "level": "Básico",
+    "duration": 25,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 350,
+    "createdAt": "2026-02-18T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c23",
+        "title": "Estructura de un documento HTML",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=UB1O30fR-EE"
+      },
+      {
+        "id": "l2_c23",
+        "title": "Estilos con CSS",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c24",
+    "title": "JavaScript: El Lenguaje de la Web",
+    "description": "Domina JavaScript desde lo básico hasta conceptos avanzados como closures, promesas y async/await.",
+    "categoryId": "cat1",
+    "level": "Intermedio",
+    "duration": 50,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 280,
+    "createdAt": "2026-02-20T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c24",
+        "title": "Variables y tipos de datos",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+      },
+      {
+        "id": "l2_c24",
+        "title": "Funciones y scope",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=ZxYQp-PS4qo"
+      },
+      {
+        "id": "l3_c24",
+        "title": "Programación asíncrona: Promesas",
+        "type": "text",
+        "content": "Las promesas permiten manejar operaciones asíncronas en JavaScript."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c25",
+    "title": "TypeScript: Tipado Estricto para JavaScript",
+    "description": "Aprende TypeScript y escribe código más robusto y mantenible.",
+    "categoryId": "cat1",
+    "level": "Avanzado",
+    "duration": 30,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 145,
+    "createdAt": "2026-02-22T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c25",
+        "title": "Instalación y configuración",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=BwuLxPH8IDs"
+      },
+      {
+        "id": "l2_c25",
+        "title": "Tipos básicos e interfaces",
+        "type": "text",
+        "content": "TypeScript añade tipos estáticos opcionales a JavaScript."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c26",
+    "title": "Docker y Kubernetes",
+    "description": "Aprende a contenerizar aplicaciones y orquestar contenedores con Kubernetes.",
+    "categoryId": "cat33",
+    "level": "Avanzado",
+    "duration": 45,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 95,
+    "createdAt": "2026-02-25T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1605745341112-85968b19335b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c26",
+        "title": "Docker básico",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+      },
+      {
+        "id": "l2_c26",
+        "title": "Docker Compose",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c27",
+    "title": "Machine Learning con Python",
+    "description": "Aprende los fundamentos del machine learning con Scikit-learn y TensorFlow.",
+    "categoryId": "cat34",
+    "level": "Avanzado",
+    "duration": 60,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 210,
+    "createdAt": "2026-02-28T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c27",
+        "title": "Introducción al ML",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Gv9_4yMHFhI"
+      },
+      {
+        "id": "l2_c27",
+        "title": "Regresión lineal",
+        "type": "text",
+        "content": "La regresión lineal es el algoritmo más básico en machine learning."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c28",
+    "title": "Diseño de Moda: Colección Capsula",
+    "description": "Aprende a diseñar una colección de moda desde el concepto hasta la prenda final.",
+    "categoryId": "cat38",
+    "level": "Intermedio",
+    "duration": 30,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 60,
+    "createdAt": "2026-03-01T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c28",
+        "title": "Investigación de tendencias",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=2d4tWgFhZJU"
+      },
+      {
+        "id": "l2_c28",
+        "title": "Diseño de patrones",
+        "type": "text",
+        "content": "Los patrones son la base de la confección."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c29",
+    "title": "Jardinería Urbana",
+    "description": "Aprende a cultivar plantas y vegetales en espacios urbanos: terrazas, balcones y patios.",
+    "categoryId": "cat39",
+    "level": "Básico",
+    "duration": 15,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 160,
+    "createdAt": "2026-03-03T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c29",
+        "title": "Tipos de plantas para espacios pequeños",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=zJq0_jjQK3Q"
+      },
+      {
+        "id": "l2_c29",
+        "title": "Riego y cuidados básicos",
+        "type": "text",
+        "content": "El riego es fundamental. La mayoría de plantas requieren riego 2-3 veces por semana."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c30",
+    "title": "Turismo Sostenible",
+    "description": "Conoce cómo viajar de manera responsable y sostenible.",
+    "categoryId": "cat41",
+    "level": "Básico",
+    "duration": 12,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 75,
+    "createdAt": "2026-03-05T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c30",
+        "title": "Principios del turismo sostenible",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=-a4vXrBIt-c"
+      },
+      {
+        "id": "l2_c30",
+        "title": "Destinos sostenibles",
+        "type": "text",
+        "content": "Elige destinos que promuevan la sostenibilidad."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c31",
+    "title": "Logística y Cadena de Suministro",
+    "description": "Aprende a gestionar la logística y optimizar la cadena de suministro.",
+    "categoryId": "cat42",
+    "level": "Intermedio",
+    "duration": 30,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 90,
+    "createdAt": "2026-03-08T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c31",
+        "title": "Introducción a la logística",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=8aYLwGgx5qg"
+      },
+      {
+        "id": "l2_c31",
+        "title": "Gestión de inventarios",
+        "type": "text",
+        "content": "El inventario debe ser gestionado con el sistema FIFO o LIFO."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c32",
+    "title": "Gestión de Proyectos con Scrum",
+    "description": "Aprende a gestionar proyectos utilizando la metodología ágil Scrum.",
+    "categoryId": "cat47",
+    "level": "Intermedio",
+    "duration": 20,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 220,
+    "createdAt": "2026-03-10T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c32",
+        "title": "Roles en Scrum: Product Owner, Scrum Master y Equipo",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=9TycLR0TqFA"
+      },
+      {
+        "id": "l2_c32",
+        "title": "Sprint Planning y Daily Standup",
+        "type": "text",
+        "content": "Los sprints duran de 1 a 4 semanas."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c33",
+    "title": "Contabilidad Básica para Emprendedores",
+    "description": "Aprende los fundamentos de contabilidad para manejar las finanzas de tu negocio.",
+    "categoryId": "cat48",
+    "level": "Básico",
+    "duration": 18,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 185,
+    "createdAt": "2026-03-12T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c33",
+        "title": "Conceptos básicos: activos, pasivos y capital",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=yMv-hzH7phE"
+      },
+      {
+        "id": "l2_c33",
+        "title": "El libro diario y el mayor",
+        "type": "text",
+        "content": "El libro diario registra todas las transacciones."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c34",
+    "title": "Estadística para Data Science",
+    "description": "Domina los conceptos estadísticos fundamentales para el análisis de datos.",
+    "categoryId": "cat50",
+    "level": "Intermedio",
+    "duration": 35,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 155,
+    "createdAt": "2026-03-15T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c34",
+        "title": "Media, mediana y moda",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=B1HEzNTGeZ4"
+      },
+      {
+        "id": "l2_c34",
+        "title": "Desviación estándar y varianza",
+        "type": "text",
+        "content": "La desviación estándar mide la dispersión de los datos."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c35",
+    "title": "Fotografía de Retrato",
+    "description": "Aprende a tomar retratos profesionales con luz natural y artificial.",
+    "categoryId": "cat8",
+    "level": "Intermedio",
+    "duration": 22,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 140,
+    "createdAt": "2026-03-18T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c35",
+        "title": "Composición en retrato",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=6VW1Z4LxqFw"
+      },
+      {
+        "id": "l2_c35",
+        "title": "Iluminación para retrato",
+        "type": "text",
+        "content": "La luz lateral crea volumen y profundidad."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c36",
+    "title": "Inglés: Nivel Básico",
+    "description": "Aprende inglés desde cero con vocabulario, gramática y conversación.",
+    "categoryId": "cat5",
+    "level": "Básico",
+    "duration": 40,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 320,
+    "createdAt": "2026-03-20T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c36",
+        "title": "El verbo 'to be'",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Kx_6jTq5AgY"
+      },
+      {
+        "id": "l2_c36",
+        "title": "Presente simple",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=VM1iPwRzZ7Y"
+      },
+      {
+        "id": "l3_c36",
+        "title": "Vocabulario: colores y familia",
+        "type": "text",
+        "content": "Aprende los colores: red, blue, green, yellow."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c37",
+    "title": "Desarrollo de Videojuegos con Unity",
+    "description": "Crea tu primer videojuego 2D y 3D utilizando Unity y C#.",
+    "categoryId": "cat27",
+    "level": "Intermedio",
+    "duration": 55,
+    "instructorId": "INS-001",
+    "status": "active",
+    "studentsEnrolled": 180,
+    "createdAt": "2026-03-22T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c37",
+        "title": "Instalación de Unity",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=IlKaB1etrik"
+      },
+      {
+        "id": "l2_c37",
+        "title": "Scripting en C#",
+        "type": "text",
+        "content": "C# es el lenguaje principal en Unity."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c38",
+    "title": "Animación 2D con After Effects",
+    "description": "Aprende a crear animaciones 2D profesionales con After Effects.",
+    "categoryId": "cat28",
+    "level": "Intermedio",
+    "duration": 35,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 105,
+    "createdAt": "2026-03-25T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c38",
+        "title": "Introducción a After Effects",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=G2uC8sc1qUw"
+      },
+      {
+        "id": "l2_c38",
+        "title": "Keyframes y animación",
+        "type": "text",
+        "content": "Los keyframes son la base de la animación."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c39",
+    "title": "Finanzas Personales",
+    "description": "Aprende a manejar tu dinero, ahorrar, invertir y planificar tu jubilación.",
+    "categoryId": "cat13",
+    "level": "Básico",
+    "duration": 20,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 250,
+    "createdAt": "2026-03-28T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c39",
+        "title": "Presupuesto personal",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Z1d05Kf7K1g"
+      },
+      {
+        "id": "l2_c39",
+        "title": "Ahorro e inversión",
+        "type": "text",
+        "content": "El interés compuesto es clave para la inversión."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c40",
+    "title": "Filosofía para la Vida Moderna",
+    "description": "Explora las corrientes filosóficas y su aplicación en la vida cotidiana.",
+    "categoryId": "cat25",
+    "level": "Básico",
+    "duration": 18,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 70,
+    "createdAt": "2026-04-01T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c40",
+        "title": "Introducción a la filosofía",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=cVq1wHdDd5g"
+      },
+      {
+        "id": "l2_c40",
+        "title": "Ética y moral",
+        "type": "text",
+        "content": "La ética estudia el comportamiento humano."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c41",
+    "title": "Derecho Laboral",
+    "description": "Conoce los derechos y obligaciones de trabajadores y empleadores.",
+    "categoryId": "cat21",
+    "level": "Intermedio",
+    "duration": 25,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 120,
+    "createdAt": "2026-04-03T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c41",
+        "title": "Contrato de trabajo",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=JZ6gD8Zhe48"
+      },
+      {
+        "id": "l2_c41",
+        "title": "Despido y liquidación",
+        "type": "text",
+        "content": "El despido debe seguir el proceso legal establecido."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c42",
+    "title": "Psicología del Color",
+    "description": "Aprende cómo los colores afectan la percepción y el comportamiento humano.",
+    "categoryId": "cat22",
+    "level": "Básico",
+    "duration": 15,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 90,
+    "createdAt": "2026-04-05T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c42",
+        "title": "Teoría del color",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=QjPUD-XOS6Y"
+      },
+      {
+        "id": "l2_c42",
+        "title": "Psicología de los colores",
+        "type": "text",
+        "content": "El rojo evoca pasión y urgencia."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c43",
+    "title": "Historia del Arte Contemporáneo",
+    "description": "Explora el arte desde el siglo XX hasta la actualidad.",
+    "categoryId": "cat23",
+    "level": "Intermedio",
+    "duration": 30,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 55,
+    "createdAt": "2026-04-08T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c43",
+        "title": "El impresionismo",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=1cL0n33qrnA"
+      },
+      {
+        "id": "l2_c43",
+        "title": "El arte abstracto",
+        "type": "text",
+        "content": "El arte abstracto no representa la realidad."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c44",
+    "title": "Meditación Mindfulness",
+    "description": "Aprende técnicas de meditación mindfulness para reducir el estrés y mejorar tu bienestar.",
+    "categoryId": "cat17",
+    "level": "Básico",
+    "duration": 12,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 280,
+    "createdAt": "2026-04-10T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c44",
+        "title": "Introducción a Mindfulness",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=5m81iI6c3Zk"
+      },
+      {
+        "id": "l2_c44",
+        "title": "Meditación guiada",
+        "type": "text",
+        "content": "Practica 10 minutos al día para ver resultados."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c45",
+    "title": "Diseño Gráfico con Illustrator",
+    "description": "Aprende a crear ilustraciones y diseños vectoriales con Adobe Illustrator.",
+    "categoryId": "cat2",
+    "level": "Intermedio",
+    "duration": 35,
+    "instructorId": "INS-002",
+    "status": "active",
+    "studentsEnrolled": 165,
+    "createdAt": "2026-04-12T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c45",
+        "title": "Interfaz de Illustrator",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=3GzUw6CzqB0"
+      },
+      {
+        "id": "l2_c45",
+        "title": "Herramientas de dibujo",
+        "type": "text",
+        "content": "La pluma es la herramienta principal."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c46",
+    "title": "Networking y Construcción de Relaciones",
+    "description": "Aprende a construir relaciones profesionales y expandir tu red de contactos.",
+    "categoryId": "cat7",
+    "level": "Básico",
+    "duration": 15,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 130,
+    "createdAt": "2026-04-15T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c46",
+        "title": "Estrategias de networking",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=YlXH9CfK2oM"
+      },
+      {
+        "id": "l2_c46",
+        "title": "LinkedIn y redes profesionales",
+        "type": "text",
+        "content": "LinkedIn es la red social para profesionales."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c47",
+    "title": "Producción Musical con Ableton Live",
+    "description": "Aprende a producir música electrónica con Ableton Live.",
+    "categoryId": "cat37",
+    "level": "Intermedio",
+    "duration": 40,
+    "instructorId": "INS-005",
+    "status": "active",
+    "studentsEnrolled": 85,
+    "createdAt": "2026-04-18T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c47",
+        "title": "Introducción a Ableton",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=9B6i8rQm3Dg"
+      },
+      {
+        "id": "l2_c47",
+        "title": "Creación de beats",
+        "type": "text",
+        "content": "El beat es la base de la música electrónica."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c48",
+    "title": "SEO y Marketing de Contenidos",
+    "description": "Aprende a posicionar tu contenido en buscadores y atraer tráfico orgánico.",
+    "categoryId": "cat3",
+    "level": "Intermedio",
+    "duration": 25,
+    "instructorId": "INS-002",
+    "status": "active",
+    "studentsEnrolled": 230,
+    "createdAt": "2026-04-20T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c48",
+        "title": "Fundamentos de SEO",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=MYE6T_gd7H0"
+      },
+      {
+        "id": "l2_c48",
+        "title": "Keyword Research",
+        "type": "text",
+        "content": "Investiga palabras clave con herramientas como Google Keyword Planner."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c49",
+    "title": "Responsabilidad Social Empresarial",
+    "description": "Aprende a implementar prácticas de responsabilidad social en tu empresa.",
+    "categoryId": "cat4",
+    "level": "Intermedio",
+    "duration": 20,
+    "instructorId": "INS-004",
+    "status": "active",
+    "studentsEnrolled": 65,
+    "createdAt": "2026-04-22T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1557425493-6f90ae4659fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c49",
+        "title": "Conceptos de RSE",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=Kv7b5cG5y8k"
+      },
+      {
+        "id": "l2_c49",
+        "title": "Implementación de RSE",
+        "type": "text",
+        "content": "La RSE mejora la imagen de la empresa."
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "c50",
+    "title": "Habilidades de Negociación",
+    "description": "Aprende técnicas efectivas de negociación en diferentes contextos.",
+    "categoryId": "cat45",
+    "level": "Básico",
+    "duration": 18,
+    "instructorId": "INS-003",
+    "status": "active",
+    "studentsEnrolled": 200,
+    "createdAt": "2026-04-25T10:00:00.000Z",
+    "thumbnail": "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "lessons": [
+      {
+        "id": "l1_c50",
+        "title": "Preparación para la negociación",
+        "type": "video",
+        "content": "https://www.youtube.com/watch?v=VsWqKG3EyDE"
+      },
+      {
+        "id": "l2_c50",
+        "title": "Técnicas de negociación",
+        "type": "text",
+        "content": "La preparación es clave para una negociación exitosa."
+      }
+    ],
+    "resources": []
+  }
+]

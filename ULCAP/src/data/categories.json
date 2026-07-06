@@ -1,0 +1,252 @@
+[
+  {
+    "id": "cat1",
+    "name": "Programación",
+    "description": "Cursos de desarrollo de software"
+  },
+  {
+    "id": "cat2",
+    "name": "Diseño",
+    "description": "Cursos de UI, UX y diseño gráfico"
+  },
+  {
+    "id": "cat3",
+    "name": "Marketing",
+    "description": "Marketing digital y SEO"
+  },
+  {
+    "id": "cat4",
+    "name": "Negocios",
+    "description": "Emprendimiento y finanzas"
+  },
+  {
+    "id": "cat5",
+    "name": "Idiomas",
+    "description": "Aprendizaje de idiomas extranjeros"
+  },
+  {
+    "id": "cat6",
+    "name": "Ciencia de Datos",
+    "description": "Data Science, Machine Learning e IA"
+  },
+  {
+    "id": "cat7",
+    "name": "Desarrollo Personal",
+    "description": "Habilidades blandas y productividad"
+  },
+  {
+    "id": "cat8",
+    "name": "Fotografía",
+    "description": "Técnicas de fotografía y edición"
+  },
+  {
+    "id": "cat9",
+    "name": "Música",
+    "description": "Teoría musical e instrumentos"
+  },
+  {
+    "id": "cat10",
+    "name": "Salud y Bienestar",
+    "description": "Nutrición, ejercicio y salud mental"
+  },
+  {
+    "id": "cat11",
+    "name": "Arte",
+    "description": "Pintura, dibujo y artes plásticas"
+  },
+  {
+    "id": "cat12",
+    "name": "Tecnología",
+    "description": "Tecnología general y tendencias"
+  },
+  {
+    "id": "cat13",
+    "name": "Finanzas",
+    "description": "Inversiones y finanzas personales"
+  },
+  {
+    "id": "cat14",
+    "name": "Comunicación",
+    "description": "Oratoria y comunicación efectiva"
+  },
+  {
+    "id": "cat15",
+    "name": "Cocina",
+    "description": "Gastronomía y repostería"
+  },
+  {
+    "id": "cat16",
+    "name": "Danza",
+    "description": "Danza y coreografía"
+  },
+  {
+    "id": "cat17",
+    "name": "Yoga",
+    "description": "Yoga y meditación"
+  },
+  {
+    "id": "cat18",
+    "name": "Ingeniería",
+    "description": "Ingeniería civil, mecánica y eléctrica"
+  },
+  {
+    "id": "cat19",
+    "name": "Arquitectura",
+    "description": "Diseño arquitectónico y urbanismo"
+  },
+  {
+    "id": "cat20",
+    "name": "Medicina",
+    "description": "Medicina y ciencias de la salud"
+  },
+  {
+    "id": "cat21",
+    "name": "Derecho",
+    "description": "Legislación y derecho"
+  },
+  {
+    "id": "cat22",
+    "name": "Psicología",
+    "description": "Psicología y comportamiento humano"
+  },
+  {
+    "id": "cat23",
+    "name": "Historia",
+    "description": "Historia universal y geopolítica"
+  },
+  {
+    "id": "cat24",
+    "name": "Literatura",
+    "description": "Escritura creativa y análisis literario"
+  },
+  {
+    "id": "cat25",
+    "name": "Filosofía",
+    "description": "Filosofía y pensamiento crítico"
+  },
+  {
+    "id": "cat26",
+    "name": "Astronomía",
+    "description": "Astronomía y astrofísica"
+  },
+  {
+    "id": "cat27",
+    "name": "Videojuegos",
+    "description": "Desarrollo de videojuegos"
+  },
+  {
+    "id": "cat28",
+    "name": "Animación",
+    "description": "Animación 2D y 3D"
+  },
+  {
+    "id": "cat29",
+    "name": "Ciberseguridad",
+    "description": "Seguridad informática y hacking ético"
+  },
+  {
+    "id": "cat30",
+    "name": "Redes",
+    "description": "Redes y telecomunicaciones"
+  },
+  {
+    "id": "cat31",
+    "name": "Sistemas",
+    "description": "Sistemas operativos y virtualización"
+  },
+  {
+    "id": "cat32",
+    "name": "Bases de Datos",
+    "description": "Administración de bases de datos"
+  },
+  {
+    "id": "cat33",
+    "name": "DevOps",
+    "description": "DevOps y automatización"
+  },
+  {
+    "id": "cat34",
+    "name": "Inteligencia Artificial",
+    "description": "IA y machine learning"
+  },
+  {
+    "id": "cat35",
+    "name": "Blockchain",
+    "description": "Blockchain y criptomonedas"
+  },
+  {
+    "id": "cat36",
+    "name": "Video",
+    "description": "Edición de video y producción"
+  },
+  {
+    "id": "cat37",
+    "name": "Audio",
+    "description": "Producción musical y audio"
+  },
+  {
+    "id": "cat38",
+    "name": "Moda",
+    "description": "Diseño de moda y confección"
+  },
+  {
+    "id": "cat39",
+    "name": "Jardinería",
+    "description": "Jardinería y paisajismo"
+  },
+  {
+    "id": "cat40",
+    "name": "Deportes",
+    "description": "Deportes y entrenamiento físico"
+  },
+  {
+    "id": "cat41",
+    "name": "Turismo",
+    "description": "Guía turístico y hospitalidad"
+  },
+  {
+    "id": "cat42",
+    "name": "Logística",
+    "description": "Logística y cadena de suministro"
+  },
+  {
+    "id": "cat43",
+    "name": "Recursos Humanos",
+    "description": "Gestión de talento humano"
+  },
+  {
+    "id": "cat44",
+    "name": "Marketing",
+    "description": "Estrategias de marketing"
+  },
+  {
+    "id": "cat45",
+    "name": "Ventas",
+    "description": "Técnicas de ventas y negociación"
+  },
+  {
+    "id": "cat46",
+    "name": "Servicio al Cliente",
+    "description": "Atención al cliente y CRM"
+  },
+  {
+    "id": "cat47",
+    "name": "Administración",
+    "description": "Administración de empresas"
+  },
+  {
+    "id": "cat48",
+    "name": "Contabilidad",
+    "description": "Contabilidad y auditoría"
+  },
+  {
+    "id": "cat49",
+    "name": "Economía",
+    "description": "Economía y política económica"
+  },
+  {
+    "id": "cat50",
+    "name": "Estadística",
+    "description": "Estadística y análisis de datos"
+  }
+]
