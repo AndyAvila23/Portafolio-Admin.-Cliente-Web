@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 // Layouts
@@ -22,7 +22,7 @@ import Profile from '../pages/shared/Profile';
 import Reports from '../pages/shared/Reports';
 
 const AppRoutes = () => {
-  const { currentUser, isLoading } = useAuth();
+  const { isLoading } = useAuth();
 
   if (isLoading) return <div>Cargando la aplicación...</div>;
 

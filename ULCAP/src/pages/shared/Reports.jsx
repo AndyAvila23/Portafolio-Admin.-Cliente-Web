@@ -197,9 +197,69 @@ const Reports = () => {
 
   // Obtener los datos actuales según la pestaña activa
   const currentReportData = useMemo(() => {
-    if (activeTab === 'inscriptions') return getInscriptionsReport();
-    if (activeTab === 'certificates') return getCertificatesReport();
-    if (activeTab === 'courses') return getCoursesReport();
+    const applyFiltersLocal = (data, dateField) => {
+      let filtered = [...data];
+      if (startDate) {
+        const start = new Date(startDate);
+        start.setHours(0, 0, 0, 0);
+        filtered = filtered.filter(item => new Date(item[dateField]) >= start);
+      }
+      if (endDate) {
+        const end = new Date(endDate);
+        end.setHours(23, 59, 59, 999);
+        filtered = filtered.filter(item => new Date(item[dateField]) <= end);
+      }
+      filtered.sort((a, b) => {
+        const dateA = new Date(a[dateField]);
+        const dateB = new Date(b[dateField]);
+        return sortOrder === 'desc' ? dateB - dateA : dateA - dateB;
+      });
+      return filtered;
+    };
+
+    if (activeTab === 'inscriptions') {
+      return applyFiltersLocal(myInscriptions, 'enrolledAt').map(ins => {
+        const student = users.find(u => u.id === ins.studentId) || {};
+        const course = courses.find(c => c.id === ins.courseId) || {};
+        return {
+          'ID Estudiante': student.id || 'N/A',
+          'Nombres': student.names || 'N/A',
+          'Apellidos': student.lastNames || 'N/A',
+          'Correo': student.email || 'N/A',
+          'Curso': course.title || 'N/A',
+          'Fecha Inscripción': new Date(ins.enrolledAt).toLocaleDateString(),
+          'Estado': ins.status
+        };
+      });
+    }
+    if (activeTab === 'certificates') {
+      return applyFiltersLocal(myCertificates, 'issueDate').map(cert => {
+        const student = users.find(u => u.id === cert.studentId) || {};
+        const course = courses.find(c => c.id === cert.courseId) || {};
+        return {
+          'ID Certificado': cert.certificateCode,
+          'Estudiante': `${student.names || ''} ${student.lastNames || ''}`.trim() || 'N/A',
+          'Curso': course.title || 'N/A',
+          'Fecha Emisión': new Date(cert.issueDate).toLocaleDateString()
+        };
+      });
+    }
+    if (activeTab === 'courses') {
+      return applyFiltersLocal(myCourses, 'createdAt').map(course => {
+        const instructor = users.find(u => u.id === course.instructorId) || {};
+        const enrolledCount = inscriptions.filter(i => i.courseId === course.id && i.status === 'active').length;
+        return {
+          'ID Curso': course.id,
+          'Título': course.title,
+          'Nivel': course.level,
+          'Duración (hrs)': course.duration,
+          'Instructor': `${instructor.names || ''} ${instructor.lastNames || ''}`.trim() || 'N/A',
+          'Inscritos Activos': enrolledCount,
+          'Fecha Creación': new Date(course.createdAt).toLocaleDateString(),
+          'Estado': course.status
+        };
+      });
+    }
     return [];
   }, [activeTab, myInscriptions, myCertificates, myCourses, startDate, endDate, sortOrder, users, courses, inscriptions]);
 

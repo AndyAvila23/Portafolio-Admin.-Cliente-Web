@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 // Import local JSON files
 import usersData from '../data/users.json';

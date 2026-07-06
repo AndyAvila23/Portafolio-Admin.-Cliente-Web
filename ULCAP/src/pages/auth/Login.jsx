@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
-import { FiEye, FiEyeOff, FiMail, FiLock } from 'react-icons/fi';
+import { FiEye, FiEyeOff, FiMail } from 'react-icons/fi';
 import '../../styles/Auth.css';
 
 const Login = () => {
@@ -112,7 +112,7 @@ const Login = () => {
               />
               <span>Recuérdame</span>
             </label>
-            <a href="#" className="forgot-link">¿Olvidaste tu contraseña?</a>
+            <button type="button" className="forgot-link" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>¿Olvidaste tu contraseña?</button>
           </div>
 
           {failedAttempts >= 3 && !captchaResolved && (

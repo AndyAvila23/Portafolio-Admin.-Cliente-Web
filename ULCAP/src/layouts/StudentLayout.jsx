@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet, Navigate, NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { FiHome, FiBook, FiUser, FiLogOut, FiMenu, FiX, FiAward, FiFileText } from 'react-icons/fi';
+import { FiHome, FiBook, FiUser, FiLogOut, FiMenu, FiX, FiAward } from 'react-icons/fi';
 import './StudentLayout.css';
 
 const StudentLayout = () => {

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { useAuth } from '../../context/AuthContext';
 import Modal from '../../components/Modal';
-import { FiPrinter, FiDownload } from 'react-icons/fi';
+import { FiDownload } from 'react-icons/fi';
 import './CertificateViewer.css';
 
 const CertificateViewer = ({ certificateId, onClose }) => {

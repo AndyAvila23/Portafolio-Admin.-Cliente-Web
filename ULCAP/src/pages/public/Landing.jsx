@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { useAuth } from '../../context/AuthContext';
-import { FiClock, FiBook, FiUser } from 'react-icons/fi';
+import { FiClock, FiUser } from 'react-icons/fi';
 import Modal from '../../components/Modal';
 import './Landing.css';
 
