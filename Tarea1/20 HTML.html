@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplos HTML</title>
+</head>
+<body>
+
+    <address>
+        Autor: Juan Pérez <br>
+        Email: juan@email.com
+    </address> <br>
+
+    <p>Usuario: <bdi>مرحبا</bdi></p><br>
+
+
+    <p><bdo dir="rtl">Texto invertido</bdo></p><br>
+
+
+    <p>Libro: <cite>El Principito</cite></p><br>
+
+    
+    <p>Ejemplo: <code>console.log("Hola mundo");</code></p><br>
+
+
+    <p>Producto: <data value="A123">Laptop</data></p><br>
+
+
+    <label>Elige un navegador:</label>
+    <input list="navegadores">
+    <datalist id="navegadores">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+    </datalist><br><br><br>
+
+    <details>
+        <summary>Mostrar información</summary>
+        <p>Este es contenido oculto</p>
+    </details><br><br>
+
+
+    <dialog open>
+        <p>Este es un diálogo</p>
+    </dialog><br><br><br><br><br><br>
+    
+
+
+    <figure>
+        <img src="ejemplo.jpg">
+        <figcaption>Imagen de ejemplo</figcaption>
+    </figure><br>
+
+    <p>Presiona <kbd>Ctrl</kbd> + <kbd>C</kbd></p><br>
+
+
+    <p>Texto <mark>importante</mark></p><br>
+
+
+    <p>Nivel de batería:</p>
+    <meter value="0.7">70%</meter><br><br>
+
+
+    <form oninput="resultado.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="number" id="a"> +
+        <input type="number" id="b"> =
+        <output name="resultado"></output>
+    </form><br>
+
+
+    <progress value="50" max="100"></progress><br><br>
+
+
+    <ruby>
+        漢 <rt>Kan</rt>
+    </ruby><br><br>
+
+
+    <p>Fecha: <time datetime="2026-04-14">14 de abril</time></p><br>
+
+
+    <p>
+    El lenguaje <abbr title="HyperText Markup Language">HTML</abbr> es la base del desarrollo web.
+    </p>
+
+    <p>
+    La <abbr title="Organización Mundial de la Salud">OMS</abbr> regula estándares internacionales de salud.
+    </p><br><br>
+
+
+    <p>Comentarios de usuarios:</p>
+    <ul>
+        <li>Usuario: <bdi>Juan123</bdi></li>
+        <li>Usuario: <bdi>محمد</bdi></li>
+        <li>Usuario: <bdi>David</bdi></li>
+    </ul><br><br>
+
+
+
+    <template id="mi-card">
+    <style>
+        .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+        width: 200px;
+        }
+    </style>
+    <div class="card">
+        <h3><slot name="titulo"></slot></h3>
+        <p><slot name="contenido"></slot></p>
+    </div>
+    </template>
+
+    <script>
+    class MiCard extends HTMLElement {
+    constructor() {
+        super();
+        const template = document.getElementById("mi-card");
+        const shadow = this.attachShadow({ mode: "open" });
+        shadow.appendChild(template.content.cloneNode(true));
+    }
+    }
+    customElements.define("mi-card", MiCard);
+    </script>
+
+    <mi-card>
+        <span slot="titulo">Título dinámico</span>
+        <span slot="contenido">Contenido insertado desde fuera</span>
+    </mi-card>
+    <br><br>
+
+
+    <button onclick="agregarTarjeta()">Agregar tarjeta</button>
+
+    <div id="contenedor"></div>
+
+    <template id="tarjeta">
+    <div class="card">
+        <h3>Tarjeta</h3>
+        <p>Contenido generado dinámicamente</p>
+    </div>
+    </template>
+
+    <script>
+    function agregarTarjeta() {
+    const template = document.getElementById("tarjeta");
+    const clon = template.content.cloneNode(true);
+    document.getElementById("contenedor").appendChild(clon);
+    }
+    </script>
+    <br><br>
+
+</body>
+</html>
